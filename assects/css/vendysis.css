@@ -1,0 +1,248 @@
+
+/* Global CSS*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+}
+.button{
+    width: 177.94px;
+    color: white;
+    height: 12%;
+    background-color: #DC3545;
+    border:0px;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.space-evenly{
+    justify-content: space-evenly;
+}
+.white{
+    color:white;
+    text-decoration: none;
+}
+
+/* nav */
+
+.nav{
+    background-color: #3B3B3B;
+    padding: 0 64px;
+}
+.list ol{
+    display: flex;
+    list-style: none;
+}
+.links {
+    color: white;
+    margin-left:60px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* section 1 */
+
+.background-img{
+    background-image:url("/assects/images/vendisys-assects/head-bg.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 147px 0 135px 0;
+}
+.sec1-container{
+   padding: 0 195px;
+    
+}
+.tagline{
+    font-size:60px ;
+    line-height: 61.2px;
+    max-width:370px;
+}
+.tagline-description{
+    padding:50px 0 61.2px 0;
+    max-width:300px ;
+}
+
+/* section 2 */
+
+.section-2-boldtext{
+    padding-top: 88.21px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 48px;
+    width:65%;
+    margin-bottom: 20px;
+}
+.inline{
+    color: #DC3545;
+}
+.section2-lower-text{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 53px;
+}
+.leftgrid{
+    background-color: #DC3545;
+    border-radius: 25px 0 0 25px;
+    padding: 0 0 30px 40px;
+    margin-bottom: 50px;
+ }
+ .leftgrid-img{
+    border-radius: 0 0 0 15px;
+    margin-right: -60px;
+}
+ .rightgrid{
+    margin-bottom: 50px
+}    
+.head-text{
+    font-size: 30px;
+    padding-bottom:10px;
+    color: #212529;
+}
+.section2-sub-heading{
+    width: 483.17px;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 49.46px;
+}
+.section-lower-text{
+    padding-bottom: 10px;   
+}
+
+
+/* section 3 */
+
+.dull-bg{
+    background-image: url(/assects/images/vendisys-assects/under-logo-img.png);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    justify-content: center;
+    padding: 120px 0;
+}
+.logo-section3{
+    padding-left: 70px;
+}
+.over-size{
+    height: 55px;
+}
+.dull-bg .container{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* section 4 */
+
+.section4-heading{
+    font-size:48px;
+    text-align: center;
+    padding-top: 100px;
+}
+.section4-heading-description{
+    padding:46px 0 150px 0;
+    text-align: center;
+    width: 676px;
+    margin: 0 auto;
+}
+.cards-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 61.2px;
+} 
+.cardbg{
+    margin-top: 56px;
+    height: 180px;
+    background-color: #F4F4F4;
+    width: 570.88px;
+    padding:52px 0 43px 37.88px ;
+}
+.card-heading{
+    font-size:22px;
+    font-weight:700;
+    padding-bottom: 36px; 
+}
+.card-heading-description{
+    font-size: 18px;
+    padding-bottom: 37px;
+}
+.TIC{
+    margin-left: 37px;
+    list-style-image: url(/assects/images/vendisys-assects/tic.png);
+}
+.section-4-btn-align-center{
+    text-align: center;
+}
+
+/* section 5 
+
+section 2 css is applied on section 5 
+
+*/
+
+.sec5-marg-top{
+    margin-top: 61.2px;
+}
+
+/* section 6 */
+
+.section6-bg{
+    background-image: url("/assects/images/vendisys-assects/foot-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 135px;
+    padding-top:100px;
+    text-align: center;
+}
+.last-container-footer-text{
+    font-size: 48px;
+}
+.section6-button{
+    margin-top: 28.2px;
+}
+
+/* footer */
+
+.footer-bg{
+    background-color: #3B3B3B;
+    line-height: 30px;
+    padding: 50px 20px 0 20px;
+    color: white;
+}
+.brand-description{
+    margin-top: 20px;
+    width: 320px;
+}
+.footer-links{
+    color: white;
+    text-decoration: none;
+    list-style:none;;
+}
+.footer-button{
+    width: auto;
+    font-size: medium;
+    margin-left: 0;
+    margin:40px 0 10px 0;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size:18px;
+    width: auto;
+}
+.lower{
+    color: white;
+    text-align: center;
+    padding:50px 0 50px 0;
+}
